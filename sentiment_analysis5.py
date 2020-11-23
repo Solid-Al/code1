@@ -1,12 +1,12 @@
 
-f = open('keywords.txt')
+f = open('Data/keywords.txt')
 keyContents = f.read()
 keyContents = keyContents.split(',')
 
 f.close()
 #print(keyContents)
 
-p = open('tweets.txt')
+p = open('Data/tweets.txt')
 tweetContents = p.read()
 #tweetContents = tweetContents.split('\n')
 p.close()
